@@ -1,0 +1,18 @@
+# Kompilerade filer
+*.o
+*.obj
+*.exe
+*.out
+
+# CMake / build
+/build/
+/cmake-build-*/
+
+# VS / CLion / IDE
+.vscode/
+.idea/
+*.user
+
+# OS
+.DS_Store
+Thumbs.db
