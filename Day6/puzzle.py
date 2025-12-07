@@ -53,7 +53,7 @@ def parser(data):
     
     return numbers, operators
 
-with open('input.txt', 'r') as file:
+with open('test.txt', 'r') as file:
     content = file.readlines()
     part_1 = [line.strip().split() for line in content]
     part_2 = [[elm for elm in line if elm !='\n'] for line in content]
